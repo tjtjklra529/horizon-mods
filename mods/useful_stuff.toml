@@ -2,13 +2,15 @@ id = "useful_stuff"
 kind = "native-mod"
 name = "Useful Stuff"
 summary = "Survival tools, a slingshot, customizable ammunition, quiver storage and a torch pouch."
-description = """Useful Stuff adds tools and ammunition to survival play, with the original mod's 16×16 item artwork.
+description = """Useful Stuff adds tools and ammunition to survival play, with 16×16 item artwork and a new original quiver design.
 
 Use the obsidian hammer for directional 3×3 mining, cook eggs into food, collect drops with a held magnet, and carry torches in a four-stack pouch whose artwork changes when filled. The slingshot has four charge frames, first- and third-person poses, its own elastic snap and a matching subtitle. Flint is consumed when charging completes.
 
 The fletching table has an offset flint junction and a diagonal arrow assembly. Combine different cores, shafts, dyes and 42 modifier ingredients for abilities including ricochets, fire, freezing, slowing, poison, glowing and levitation. Ability lore is color coded, and existing modified ammunition can be upgraded. The nine-stack quiver selects flint for the slingshot. Grasping I–IV recalls missed flint after progressively shorter delays and over greater distances.
 
 Requires an SDK-capable Horizon Nightly; server compilation was verified on the Nov 22 SDK (2b77287), with the package authored and checked against the registry pin (f037744).
+
+The review correction moves all owned IDs to useful_stuff and replaces the quiver with original artwork; temporary player/menu unavailability no longer discards fletching-session inputs.
 
 This is an experimental native Horizon adaptation of the author's Java mod, not complete Java feature parity. Menus currently use Horizon's standard container screen. Automatic quiver feeding for bows/crossbows, ordinary base-potion conversion, the original potion brewing integration and the hammer's extra-block outline/crack rendering are not implemented. Protection compatibility and in-game visuals still require gameplay testing; no runtime-playtest claim is made. See the source README for the full compatibility notes.
 
@@ -17,7 +19,7 @@ authors = ["tjtjklra529"]
 owners = ["tjtjklra529"]
 owner_ids = [268348186]
 license = "LicenseRef-Useful-Stuff-Horizon"
-source = "https://github.com/tjtjklra529/Useful-Stuff-Horizon/tree/d752fa9290d1cb74d6eb35428b3296f02048e0ce/horizon"
+source = "https://github.com/tjtjklra529/Useful-Stuff-Horizon/tree/7195b669b2ba342e61f8d01ce80b94977959836b/horizon"
 icon = "icons/useful_stuff.png"
 categories = ["utility"]
 tags = ["survival", "tools", "ammunition", "storage", "slingshot"]
@@ -26,6 +28,6 @@ tags = ["survival", "tools", "ammunition", "storage", "slingshot"]
 version = "0.0.1"
 published = "2026-11-22"
 game = "26.3"
-file = "useful-stuff-horizon-0.0.1.hmod"
-sha256 = "38d9aaf81466139493c73fa0f4efc939191415e0ba04d7a7881e35d1ee143449"
-changelog = "Initial experimental Horizon adaptation; see the source README for supported features, compatibility differences and validation limits."
+file = "useful-stuff-horizon-0.0.1-r2.hmod"
+sha256 = "69f9a2087f3cc9ac28d4bf038048f84d310fb2fb5eb0cc2cb8a147a5bba93981"
+changelog = "Review correction: unique useful_stuff namespace, original 16x16 quiver, retained fletching inputs and dimension-aware torch placement. Mod version remains 0.0.1."
