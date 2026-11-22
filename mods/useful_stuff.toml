@@ -1,0 +1,31 @@
+id = "useful_stuff"
+kind = "native-mod"
+name = "Useful Stuff"
+summary = "Survival tools, a slingshot, customizable ammunition, quiver storage and a torch pouch."
+description = """Useful Stuff adds tools and ammunition to survival play, with the original mod's 16×16 item artwork.
+
+Use the obsidian hammer for directional 3×3 mining, cook eggs into food, collect drops with a held magnet, and carry torches in a four-stack pouch whose artwork changes when filled. The slingshot has four charge frames, first- and third-person poses, its own elastic snap and a matching subtitle. Flint is consumed when charging completes.
+
+The fletching table has an offset flint junction and a diagonal arrow assembly. Combine different cores, shafts, dyes and 42 modifier ingredients for abilities including ricochets, fire, freezing, slowing, poison, glowing and levitation. Ability lore is color coded, and existing modified ammunition can be upgraded. The nine-stack quiver selects flint for the slingshot. Grasping I–IV recalls missed flint after progressively shorter delays and over greater distances.
+
+Requires an SDK-capable Horizon Nightly; server compilation was verified on the Nov 22 SDK (2b77287), with the package authored and checked against the registry pin (f037744).
+
+This is an experimental native Horizon adaptation of the author's Java mod, not complete Java feature parity. Menus currently use Horizon's standard container screen. Automatic quiver feeding for bows/crossbows, ordinary base-potion conversion, the original potion brewing integration and the hammer's extra-block outline/crack rendering are not implemented. Protection compatibility and in-game visuals still require gameplay testing; no runtime-playtest claim is made. See the source README for the full compatibility notes.
+
+Made by tjtjklra529 using MCreator originally, with this Horizon adaptation developed with AI assistance. Original mod: https://www.curseforge.com/minecraft/mc-mods/useful-stuff-tjtjklra529 . No Java loader or JVM is required by this native port."""
+authors = ["tjtjklra529"]
+owners = ["tjtjklra529"]
+owner_ids = [268348186]
+license = "LicenseRef-Useful-Stuff-Horizon"
+source = "https://github.com/tjtjklra529/Useful-Stuff-Horizon/tree/d752fa9290d1cb74d6eb35428b3296f02048e0ce/horizon"
+icon = "icons/useful_stuff.png"
+categories = ["utility"]
+tags = ["survival", "tools", "ammunition", "storage", "slingshot"]
+
+[[versions]]
+version = "0.0.1"
+published = "2026-11-22"
+game = "26.3"
+file = "useful-stuff-horizon-0.0.1.hmod"
+sha256 = "38d9aaf81466139493c73fa0f4efc939191415e0ba04d7a7881e35d1ee143449"
+changelog = "Initial experimental Horizon adaptation; see the source README for supported features, compatibility differences and validation limits."
